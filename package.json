@@ -1,6 +1,6 @@
 {
   "name": "@mind-trace/stompjs",
-  "version": "2.3.6",
+  "version": "2.3.7",
   "author": "Jeff Mesnil <jmesnil@gmail.com>",
   "description": "STOMP for JavaScript apps (Web browser & node.js)",
   "scripts": {
