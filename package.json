@@ -1,37 +1,27 @@
 {
-  "name": "@mind-trace/stompjs",
-  "version": "2.3.7",
-  "author": "Jeff Mesnil <jmesnil@gmail.com>",
-  "description": "STOMP for JavaScript apps (Web browser & node.js)",
-  "scripts": {
-    "build": "cake build",
-    "test": "coffeelint -f coffeelint.json -r src && cake test"
-  },
-  "devDependencies": {
-    "coffee-script": "latest",
-    "coffeelint": "latest",
-    "jasmine-node": "latest",
-    "uglify-js": "latest",
-    "docco": "latest",
-    "connect": "latest"
-  },
-  "optionalDependencies": {
-    "websocket": "latest"
-  },
-  "directories": {
-    "doc": "doc",
-    "example": "example",
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Mind-Trace/stomp-websocket"
-  },
-  "keywords": [
-    "STOMP",
-    "Web sockets",
-    "messaging",
-    "queue"
-  ],
-  "license": "Apache-2.0"
+    "name": "@iclemens/stompts",
+    "version": "3.0.1",
+    "author": "Ivar Clemens <post@ivarclemens.nl>",
+    "contributors": ["Jeff Mesnil <jmesnil@gmail.com>"],
+    "description": "STOMP for TypeScript apps",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@types/jasmine": "^2.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iclemens/stompts"
+    },
+    "keywords": [
+        "STOMP",
+        "Web sockets",
+        "messaging",
+        "queue"
+    ],
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "jasmine-core": "^2.8.0"
+    }
 }
