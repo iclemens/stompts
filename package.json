@@ -1,11 +1,13 @@
 {
     "name": "@iclemens/stompts",
-    "version": "3.0.1",
+    "version": "3.0.4",
     "author": "Ivar Clemens <post@ivarclemens.nl>",
     "contributors": ["Jeff Mesnil <jmesnil@gmail.com>"],
     "description": "STOMP for TypeScript apps",
     "scripts": {
-        "build": "tsc"
+        "copypackage": "node copy-package.js",
+        "build": "tsc && npm run copypackage",
+        "publish-pkg": "npm run build && cd dist && npm publish"
     },
     "dependencies": {
         "@types/jasmine": "^2.6.0"
